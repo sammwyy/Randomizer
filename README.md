@@ -4,13 +4,30 @@ Javascript lib for get random values
 ## Usage:
 ### Random Integer
 Get a random integer between two numbers (Range)  
-Usage: `getRandomInt(min, max);`  
-Example: `random.getRandomInt(1, 10);`  
+```javascript
+getRandomInt(1, 20);
+```
 
 ### Random String
-Get a random string with a specify length and characters  
-Usage: `getRandomString(length, characters);`
-Example: `random.getRandomString(15, "ABCDEFGHIJK1234@"#$%&");`  
-Another example: `random.getRandomString(20);`  
-Default (characters) parameter: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789`  
+Get a random string with specific length
+```javascript
+getRandomString(20);
+```
 
+### Random String with Specific characters
+Get a random string with specific length and characters
+```javascript
+getRandomString(10, "ABCDEF");
+```
+
+### Random Double
+Get a random double between two numbers (Range)
+```javascript
+getRandomDouble(1. 5);
+```
+
+### Random Double with specific decimals amount
+Get a random double beetween two numbers (Range) with specific amount of decimals
+```javascript
+getRandomDouble(1, 5, 4); // 4 Decimals
+```
