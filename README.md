@@ -31,3 +31,31 @@ Get a random double beetween two numbers (Range) with specific amount of decimal
 ```javascript
 getRandomDouble(1, 5, 4); // 4 Decimals
 ```
+
+### Random Item List
+Get a random element in to a list
+```javascript
+getRandomItemList(list);
+```
+
+### Random Boolean
+Get a boolean with random value (true/false)
+```javascript
+getRandomBool();
+```
+
+### Get Random Color (Hex)
+Get a random HEX Code color
+```javascript
+getRandomHexColor();
+```
+
+### Get Random Color (RGB)
+Get a object with random RGB values
+```javascript
+var rgb = getRandomRgbColor();
+
+var red = rgb.r;
+var green = rgb.g;
+var blue = rgb.b;
+```
