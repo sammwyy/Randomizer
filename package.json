@@ -1,7 +1,7 @@
 {
   "name": "Randomizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Javascript lib for get random values",
   "main": "./src/index.js",
   "keywords": ["Random", "Randomizer"],
   "author": "Sammwy <sammwy.dev@gmail.com>",
